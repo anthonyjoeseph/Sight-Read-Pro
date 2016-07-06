@@ -13,6 +13,17 @@
 		95AF2CDD1D2D845500040238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AF2CDB1D2D845500040238 /* Main.storyboard */; };
 		95AF2CE81D2D845500040238 /* Sight_Read_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2CE71D2D845500040238 /* Sight_Read_ProTests.swift */; };
 		95AF2CF31D2D845500040238 /* Sight_Read_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2CF21D2D845500040238 /* Sight_Read_ProUITests.swift */; };
+		95AF2D041D2D84AB00040238 /* AnimatedStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D001D2D84AB00040238 /* AnimatedStaff.swift */; };
+		95AF2D051D2D84AB00040238 /* KeySignatureSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D011D2D84AB00040238 /* KeySignatureSprite.swift */; };
+		95AF2D061D2D84AB00040238 /* NoteSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D021D2D84AB00040238 /* NoteSprite.swift */; };
+		95AF2D071D2D84AB00040238 /* TempoMarkingSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D031D2D84AB00040238 /* TempoMarkingSprite.swift */; };
+		95AF2D0F1D2D84CB00040238 /* Clef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D091D2D84CB00040238 /* Clef.swift */; };
+		95AF2D101D2D84CB00040238 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D0A1D2D84CB00040238 /* Keyboard.swift */; };
+		95AF2D111D2D84CB00040238 /* KeyRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D0B1D2D84CB00040238 /* KeyRange.swift */; };
+		95AF2D121D2D84CB00040238 /* MajorKeySignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D0C1D2D84CB00040238 /* MajorKeySignature.swift */; };
+		95AF2D131D2D84CB00040238 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D0D1D2D84CB00040238 /* Note.swift */; };
+		95AF2D141D2D84CB00040238 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D0E1D2D84CB00040238 /* Pitch.swift */; };
+		95AF2D191D2D8D5C00040238 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2D181D2D8D5C00040238 /* Staff.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		95AF2CEE1D2D845500040238 /* Sight Read ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sight Read ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AF2CF21D2D845500040238 /* Sight_Read_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight_Read_ProUITests.swift; sourceTree = "<group>"; };
 		95AF2CF41D2D845500040238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95AF2D001D2D84AB00040238 /* AnimatedStaff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedStaff.swift; sourceTree = "<group>"; };
+		95AF2D011D2D84AB00040238 /* KeySignatureSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySignatureSprite.swift; sourceTree = "<group>"; };
+		95AF2D021D2D84AB00040238 /* NoteSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteSprite.swift; sourceTree = "<group>"; };
+		95AF2D031D2D84AB00040238 /* TempoMarkingSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempoMarkingSprite.swift; sourceTree = "<group>"; };
+		95AF2D091D2D84CB00040238 /* Clef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clef.swift; sourceTree = "<group>"; };
+		95AF2D0A1D2D84CB00040238 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		95AF2D0B1D2D84CB00040238 /* KeyRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyRange.swift; sourceTree = "<group>"; };
+		95AF2D0C1D2D84CB00040238 /* MajorKeySignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorKeySignature.swift; sourceTree = "<group>"; };
+		95AF2D0D1D2D84CB00040238 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		95AF2D0E1D2D84CB00040238 /* Pitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
+		95AF2D181D2D8D5C00040238 /* Staff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +117,8 @@
 		95AF2CD41D2D845500040238 /* Sight Read Pro */ = {
 			isa = PBXGroup;
 			children = (
+				95AF2D081D2D84B300040238 /* SK Notation */,
+				95AF2D151D2D84D200040238 /* Music Theory */,
 				95AF2CD51D2D845500040238 /* AppDelegate.swift */,
 				95AF2CD71D2D845500040238 /* ViewController.swift */,
 				95AF2CD91D2D845500040238 /* Assets.xcassets */,
@@ -120,6 +144,31 @@
 				95AF2CF41D2D845500040238 /* Info.plist */,
 			);
 			path = "Sight Read ProUITests";
+			sourceTree = "<group>";
+		};
+		95AF2D081D2D84B300040238 /* SK Notation */ = {
+			isa = PBXGroup;
+			children = (
+				95AF2D001D2D84AB00040238 /* AnimatedStaff.swift */,
+				95AF2D181D2D8D5C00040238 /* Staff.swift */,
+				95AF2D011D2D84AB00040238 /* KeySignatureSprite.swift */,
+				95AF2D021D2D84AB00040238 /* NoteSprite.swift */,
+				95AF2D031D2D84AB00040238 /* TempoMarkingSprite.swift */,
+			);
+			name = "SK Notation";
+			sourceTree = "<group>";
+		};
+		95AF2D151D2D84D200040238 /* Music Theory */ = {
+			isa = PBXGroup;
+			children = (
+				95AF2D091D2D84CB00040238 /* Clef.swift */,
+				95AF2D0A1D2D84CB00040238 /* Keyboard.swift */,
+				95AF2D0B1D2D84CB00040238 /* KeyRange.swift */,
+				95AF2D0C1D2D84CB00040238 /* MajorKeySignature.swift */,
+				95AF2D0D1D2D84CB00040238 /* Note.swift */,
+				95AF2D0E1D2D84CB00040238 /* Pitch.swift */,
+			);
+			name = "Music Theory";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +302,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				95AF2CD81D2D845500040238 /* ViewController.swift in Sources */,
+				95AF2D051D2D84AB00040238 /* KeySignatureSprite.swift in Sources */,
+				95AF2D101D2D84CB00040238 /* Keyboard.swift in Sources */,
+				95AF2D0F1D2D84CB00040238 /* Clef.swift in Sources */,
+				95AF2D041D2D84AB00040238 /* AnimatedStaff.swift in Sources */,
+				95AF2D111D2D84CB00040238 /* KeyRange.swift in Sources */,
+				95AF2D141D2D84CB00040238 /* Pitch.swift in Sources */,
+				95AF2D121D2D84CB00040238 /* MajorKeySignature.swift in Sources */,
+				95AF2D131D2D84CB00040238 /* Note.swift in Sources */,
 				95AF2CD61D2D845500040238 /* AppDelegate.swift in Sources */,
+				95AF2D071D2D84AB00040238 /* TempoMarkingSprite.swift in Sources */,
+				95AF2D191D2D8D5C00040238 /* Staff.swift in Sources */,
+				95AF2D061D2D84AB00040238 /* NoteSprite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
