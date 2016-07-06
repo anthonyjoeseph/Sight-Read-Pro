@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95AF2CD61D2D845500040238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2CD51D2D845500040238 /* AppDelegate.swift */; };
+		95AF2CD81D2D845500040238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2CD71D2D845500040238 /* ViewController.swift */; };
+		95AF2CDA1D2D845500040238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AF2CD91D2D845500040238 /* Assets.xcassets */; };
+		95AF2CDD1D2D845500040238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AF2CDB1D2D845500040238 /* Main.storyboard */; };
+		95AF2CE81D2D845500040238 /* Sight_Read_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2CE71D2D845500040238 /* Sight_Read_ProTests.swift */; };
+		95AF2CF31D2D845500040238 /* Sight_Read_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF2CF21D2D845500040238 /* Sight_Read_ProUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95AF2CE41D2D845500040238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95AF2CCA1D2D845500040238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95AF2CD11D2D845500040238;
+			remoteInfo = "Sight Read Pro";
+		};
+		95AF2CEF1D2D845500040238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95AF2CCA1D2D845500040238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95AF2CD11D2D845500040238;
+			remoteInfo = "Sight Read Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95AF2CD21D2D845500040238 /* Sight Read Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sight Read Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AF2CD51D2D845500040238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95AF2CD71D2D845500040238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95AF2CD91D2D845500040238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95AF2CDC1D2D845500040238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95AF2CDE1D2D845500040238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95AF2CE31D2D845500040238 /* Sight Read ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sight Read ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AF2CE71D2D845500040238 /* Sight_Read_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight_Read_ProTests.swift; sourceTree = "<group>"; };
+		95AF2CE91D2D845500040238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95AF2CEE1D2D845500040238 /* Sight Read ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sight Read ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AF2CF21D2D845500040238 /* Sight_Read_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight_Read_ProUITests.swift; sourceTree = "<group>"; };
+		95AF2CF41D2D845500040238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95AF2CCF1D2D845500040238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AF2CE01D2D845500040238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AF2CEB1D2D845500040238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95AF2CC91D2D845500040238 = {
+			isa = PBXGroup;
+			children = (
+				95AF2CD41D2D845500040238 /* Sight Read Pro */,
+				95AF2CE61D2D845500040238 /* Sight Read ProTests */,
+				95AF2CF11D2D845500040238 /* Sight Read ProUITests */,
+				95AF2CD31D2D845500040238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95AF2CD31D2D845500040238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95AF2CD21D2D845500040238 /* Sight Read Pro.app */,
+				95AF2CE31D2D845500040238 /* Sight Read ProTests.xctest */,
+				95AF2CEE1D2D845500040238 /* Sight Read ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95AF2CD41D2D845500040238 /* Sight Read Pro */ = {
+			isa = PBXGroup;
+			children = (
+				95AF2CD51D2D845500040238 /* AppDelegate.swift */,
+				95AF2CD71D2D845500040238 /* ViewController.swift */,
+				95AF2CD91D2D845500040238 /* Assets.xcassets */,
+				95AF2CDB1D2D845500040238 /* Main.storyboard */,
+				95AF2CDE1D2D845500040238 /* Info.plist */,
+			);
+			path = "Sight Read Pro";
+			sourceTree = "<group>";
+		};
+		95AF2CE61D2D845500040238 /* Sight Read ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				95AF2CE71D2D845500040238 /* Sight_Read_ProTests.swift */,
+				95AF2CE91D2D845500040238 /* Info.plist */,
+			);
+			path = "Sight Read ProTests";
+			sourceTree = "<group>";
+		};
+		95AF2CF11D2D845500040238 /* Sight Read ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95AF2CF21D2D845500040238 /* Sight_Read_ProUITests.swift */,
+				95AF2CF41D2D845500040238 /* Info.plist */,
+			);
+			path = "Sight Read ProUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95AF2CD11D2D845500040238 /* Sight Read Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AF2CF71D2D845500040238 /* Build configuration list for PBXNativeTarget "Sight Read Pro" */;
+			buildPhases = (
+				95AF2CCE1D2D845500040238 /* Sources */,
+				95AF2CCF1D2D845500040238 /* Frameworks */,
+				95AF2CD01D2D845500040238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sight Read Pro";
+			productName = "Sight Read Pro";
+			productReference = 95AF2CD21D2D845500040238 /* Sight Read Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95AF2CE21D2D845500040238 /* Sight Read ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AF2CFA1D2D845500040238 /* Build configuration list for PBXNativeTarget "Sight Read ProTests" */;
+			buildPhases = (
+				95AF2CDF1D2D845500040238 /* Sources */,
+				95AF2CE01D2D845500040238 /* Frameworks */,
+				95AF2CE11D2D845500040238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95AF2CE51D2D845500040238 /* PBXTargetDependency */,
+			);
+			name = "Sight Read ProTests";
+			productName = "Sight Read ProTests";
+			productReference = 95AF2CE31D2D845500040238 /* Sight Read ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95AF2CED1D2D845500040238 /* Sight Read ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AF2CFD1D2D845500040238 /* Build configuration list for PBXNativeTarget "Sight Read ProUITests" */;
+			buildPhases = (
+				95AF2CEA1D2D845500040238 /* Sources */,
+				95AF2CEB1D2D845500040238 /* Frameworks */,
+				95AF2CEC1D2D845500040238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95AF2CF01D2D845500040238 /* PBXTargetDependency */,
+			);
+			name = "Sight Read ProUITests";
+			productName = "Sight Read ProUITests";
+			productReference = 95AF2CEE1D2D845500040238 /* Sight Read ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95AF2CCA1D2D845500040238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anthony Gabriele Company";
+				TargetAttributes = {
+					95AF2CD11D2D845500040238 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					95AF2CE21D2D845500040238 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95AF2CD11D2D845500040238;
+					};
+					95AF2CED1D2D845500040238 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95AF2CD11D2D845500040238;
+					};
+				};
+			};
+			buildConfigurationList = 95AF2CCD1D2D845500040238 /* Build configuration list for PBXProject "Sight Read Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95AF2CC91D2D845500040238;
+			productRefGroup = 95AF2CD31D2D845500040238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95AF2CD11D2D845500040238 /* Sight Read Pro */,
+				95AF2CE21D2D845500040238 /* Sight Read ProTests */,
+				95AF2CED1D2D845500040238 /* Sight Read ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95AF2CD01D2D845500040238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AF2CDA1D2D845500040238 /* Assets.xcassets in Resources */,
+				95AF2CDD1D2D845500040238 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AF2CE11D2D845500040238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AF2CEC1D2D845500040238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95AF2CCE1D2D845500040238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AF2CD81D2D845500040238 /* ViewController.swift in Sources */,
+				95AF2CD61D2D845500040238 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AF2CDF1D2D845500040238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AF2CE81D2D845500040238 /* Sight_Read_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AF2CEA1D2D845500040238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AF2CF31D2D845500040238 /* Sight_Read_ProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95AF2CE51D2D845500040238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95AF2CD11D2D845500040238 /* Sight Read Pro */;
+			targetProxy = 95AF2CE41D2D845500040238 /* PBXContainerItemProxy */;
+		};
+		95AF2CF01D2D845500040238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95AF2CD11D2D845500040238 /* Sight Read Pro */;
+			targetProxy = 95AF2CEF1D2D845500040238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95AF2CDB1D2D845500040238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95AF2CDC1D2D845500040238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95AF2CF51D2D845500040238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95AF2CF61D2D845500040238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		95AF2CF81D2D845500040238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sight Read Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Gabriele-Company.Sight-Read-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95AF2CF91D2D845500040238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sight Read Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Gabriele-Company.Sight-Read-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95AF2CFB1D2D845500040238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sight Read ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Gabriele-Company.Sight-Read-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sight Read Pro.app/Contents/MacOS/Sight Read Pro";
+			};
+			name = Debug;
+		};
+		95AF2CFC1D2D845500040238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sight Read ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Gabriele-Company.Sight-Read-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sight Read Pro.app/Contents/MacOS/Sight Read Pro";
+			};
+			name = Release;
+		};
+		95AF2CFE1D2D845500040238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sight Read ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Gabriele-Company.Sight-Read-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sight Read Pro";
+			};
+			name = Debug;
+		};
+		95AF2CFF1D2D845500040238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sight Read ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anthony-Gabriele-Company.Sight-Read-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sight Read Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95AF2CCD1D2D845500040238 /* Build configuration list for PBXProject "Sight Read Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AF2CF51D2D845500040238 /* Debug */,
+				95AF2CF61D2D845500040238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95AF2CF71D2D845500040238 /* Build configuration list for PBXNativeTarget "Sight Read Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AF2CF81D2D845500040238 /* Debug */,
+				95AF2CF91D2D845500040238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95AF2CFA1D2D845500040238 /* Build configuration list for PBXNativeTarget "Sight Read ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AF2CFB1D2D845500040238 /* Debug */,
+				95AF2CFC1D2D845500040238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95AF2CFD1D2D845500040238 /* Build configuration list for PBXNativeTarget "Sight Read ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AF2CFE1D2D845500040238 /* Debug */,
+				95AF2CFF1D2D845500040238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95AF2CCA1D2D845500040238 /* Project object */;
+}
